@@ -1,7 +1,7 @@
 # Aimers 8기 모델 경량화 온라인 해커톤  
 **LLM Compression for On-Device Inference**
 
-🔗 대회 공식 페이지: https://dacon.io/competitions/official/236673/overview/description :contentReference[oaicite:0]{index=0}
+🔗 대회 공식 페이지: https://dacon.io/competitions/official/236673/overview/description
 
 ---
 
