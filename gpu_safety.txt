@@ -1,0 +1,2 @@
+sudo nvidia-smi -pl 250
+watch -n 1 nvidia-smi

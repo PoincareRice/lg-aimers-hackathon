@@ -1,6 +1,15 @@
+# ubuntu
+# sudo apt install python3.11 python3.11-venv  -y
+# cd (create env pos)
+# python3.11 -m venv lg-aimers-hackathon
+# source (env pos)/bin/activate
+# sudo apt install python3-pip
+# cuda 13.1 & ubuntu
+# pip install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu130
+
+# window
 # conda create -n lg-hackathon python=3.11 -y
 # conda activate lg-hackathon
-
 # pip install torch==2.9.1+cu126 torchvision==0.24.1+cu126 --index-url https://download.pytorch.org/whl/cu126
 
 
@@ -9,3 +18,4 @@ compressed-tensors==0.13.0
 accelerate==1.10.1
 safetensors==0.7.0
 llmcompressor
+ipykernel
