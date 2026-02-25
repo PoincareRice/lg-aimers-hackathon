@@ -113,7 +113,7 @@ LG AI Research의 **EXAONE**은 Global Frontier급 대규모 모델뿐만 아니
 
 ---
 
-## 📌 개선 내용
+## 📝 개선 내용
 - 추론 성능 개선 요소
   - 민감한 레이어 양자화 제외: 양자화 시 error 크게 발생하는 특정 layer/가중치를 양자화하지 않고 사용하여 정보 손실 최소화
   - NUM_CALIBRATION_SAMPLES와 MAX_SEQUENCE_LENGTH를 늘려 실제 데이터 분포를 더 정확히 반영
