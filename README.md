@@ -112,3 +112,12 @@ LG AI Research의 **EXAONE**은 Global Frontier급 대규모 모델뿐만 아니
 - **참여**: 한경닷컴  
 
 ---
+
+## 📌 개선 내용
+- 추론 성능 개선 요소
+  - 민감한 레이어 양자화 제외: 양자화 시 error 크게 발생하는 특정 layer/가중치를 양자화하지 않고 사용하여 정보 손실 최소화
+  - NUM_CALIBRATION_SAMPLES와 MAX_SEQUENCE_LENGTH를 늘려 실제 데이터 분포를 더 정확히 반영
+  - GPU 메모리 및 연산 효율화: pad_to_max_length=False를 적용하여, 캘리브레이션 시 발생하는 불필요한 패딩(Padding) 연산을 제거하고 자원 낭비를 최소화.
+  - 헤시안 행렬 안정화 상수 조절: dampening_frac 값을 기존 0.01에서 0.005로 줄여, 역행렬 연산 시 과도하게 정규화(Smoothing)되어 원본 가중치 값이 왜곡되는 현상을 방지.
+  - Quantization-Aware Calibration (QAC) 적용: 레이어 순차 양자화 시, 이전 레이어의 양자화 노이즈가 반영된 활성화(Activation) 값을 다음 레이어의 입력으로 사용하여 누적 오차를 보정.
+- 추론 속도 개선 요소: X
