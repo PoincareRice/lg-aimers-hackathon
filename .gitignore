@@ -1,5 +1,5 @@
 .vscode
-__pycache__
-base_model
+__pycache__/
+base_model/
 model
 *.zip
