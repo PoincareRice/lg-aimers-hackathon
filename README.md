@@ -42,8 +42,6 @@ LG AI Research의 **EXAONE**은 Global Frontier급 대규모 모델뿐만 아니
 
 ### Phase 1: 온라인 AI 교육
 
----
-
 ### Phase 2: 온라인 해커톤
 
 - **vLLM 라이브러리 수정 불가**
@@ -54,8 +52,6 @@ LG AI Research의 **EXAONE**은 Global Frontier급 대규모 모델뿐만 아니
   - 동일한 추론 파이프라인 조건 하에서 성능·효율 비교
 
 > 📌 모델 가중치 및 config 수준의 결과물만 평가 대상
-
----
 
 ### Phase 3: 오프라인 해커톤
 
