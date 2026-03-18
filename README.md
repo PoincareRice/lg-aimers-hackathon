@@ -40,6 +40,10 @@ LG AI Research의 **EXAONE**은 Global Frontier급 대규모 모델뿐만 아니
 
 ## 🚀 해커톤 구성
 
+### Phase 1: 온라인 AI 교육
+
+---
+
 ### Phase 2: 온라인 해커톤
 
 - **vLLM 라이브러리 수정 불가**
